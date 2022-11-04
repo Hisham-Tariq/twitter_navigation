@@ -1,0 +1,34 @@
+name: twitter_navigation
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  flutter_svg: ^1.1.6
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  get_storage: ^2.0.3
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
+  flutter_gen_runner: ^5.1.0+1
+  flutter_test: 
+    sdk: flutter
+
+flutter_gen: 
+  output: lib/gen/
+  integrations: 
+    flutter_svg: true
+  line_length: 80
+
+flutter: 
+  assets: 
+    - assets/
+  uses-material-design: true
+
